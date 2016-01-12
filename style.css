@@ -1,35 +1,59 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Sara Randolph's GitHub Landing Page</title>
-   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/styles/style.css">
-    
-</head>
+body { 
+  background: url('https://pixabay.com/static/uploads/photo/2013/10/02/23/03/dawn-190055_960_720.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
-<body>
-    
-    
-    
-    <section>
-        <div class="container-fluid col-xs-6 col-xs-offset-3 vcenter title">
-            <div class="text-center">
-                <h1 class="text h1-font-size">Sara Randolph</h1>
-                <h2 class="text">Web Developer</h2>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptates ad amet obcaecati qui earum, dicta cupiditate aliquid tempore, veniam facilis. Vero quos nesciunt, quibusdam nam voluptate ducimus voluptas error.</p>
-                <a class="btn btn-secondary" href="http://sararandolph.github.io/Resume/" role="button">Resume</a>
-                <a class="btn btn-secondary" href="#" role="button">Projects</a>
-                <a class="btn btn-secondary href="#" role="button">Website</a>
-            </div>
-        </div>
-    </section>
+.vcenter{
+   margin-top: 175px;
+}
 
+.title { 
+  background-color: white;
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  opacity: .5;
+  border-radius: 3px;
+}
+
+h1{
+    font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom:-5px;
+    font-size:70px;
     
-    
-   
-    
-      
-</body>
-</html>
+}
+
+h2{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    margin-top: 0px;
+}
+.btn{
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+    font-family:times, Times New Roman, times-roman, georgia, serif;
+    text-transform: uppercase;
+}
+
+.text{
+    color:black;
+}
+
+@media (max-width:767px){
+.h1-font-size{
+    font-size:3em;
+    margin-top: 13px; !important
+    margin-bottom: 0;
+    margin-left: -12;
+    margin-right: 0px;
+    }
+}
