@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }header {
     /*background-image: url(https://c1.staticflickr.com/9/8480/8159281773_b05de93ca5_k.jpg);*/
     /*background-image: url(https://c1.staticflickr.com/3/2372/2430099252_148bfccaec_o.jpg);*/
-    background-image: url("/img/about/mybackground.jpg");
+    background-image: url("img/about/mybackground.jpg");
     opacity: 0.7;
     background-repeat: none;
     background-attachment: scroll;
